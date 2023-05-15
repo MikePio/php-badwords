@@ -21,20 +21,16 @@
 
   <div class="container p-5">
 
-    <form>
+    <form action="form-data.php" method="GET">
       <div class="mb-3">
         <label for="emailForm" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+        <input name="emailForm" type="email" class="form-control" id="emailForm" aria-describedby="emailHelp">
       </div>
       <div class="mb-3">
         <label for="passwordForm" class="form-label">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
+        <input name="passwordForm" type="password" class="form-control" id="passwordForm">
       </div>
-      <!-- <div class="mb-3 form-check"> -->
-        <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1"> -->
-        <!-- <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
-      <!-- </div> -->
+
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 
