@@ -1,7 +1,12 @@
 <?php 
-
-$email = $_GET['emailForm'];
-$password = $_GET['passwordForm'];
+//!ESEMPIO CON GET
+//* METODO GET CHE RICHIAMA IL name DELL'INPUT
+// $email = $_GET['emailForm'];
+// $password = $_GET['passwordForm'];
+//!ESEMPIO CON POST
+//* METODO GET CHE RICHIAMA IL name DELL'INPUT
+$email = $_POST['emailForm'];
+$password = $_POST['passwordForm'];
 
 ?>
 

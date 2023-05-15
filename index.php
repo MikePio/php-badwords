@@ -20,14 +20,20 @@
   <!-- <?php echo $testString ?> -->
 
   <div class="container p-5">
-
-    <form action="form-data.php" method="GET">
-      <div class="mb-3">
-        <label for="emailForm" class="form-label">Email address</label>
-        <input name="emailForm" type="email" class="form-control" id="emailForm" aria-describedby="emailHelp">
-      </div>
-      <div class="mb-3">
-        <label for="passwordForm" class="form-label">Password</label>
+    <!-- //!ESEMPIO CON GET -->
+    <!-- //* INSERIRE action E method nel form -->
+    <!-- <form action="form-data.php" method="GET"> -->
+  <!-- //!ESEMPIO CON POST -->
+<!-- //* INSERIRE action E method nel form -->
+<form action="form-data.php" method="POST">
+  <div class="mb-3">
+    <label for="emailForm" class="form-label">Email address</label>
+    <!-- //* INSERIRE name NELL'INPUT CHE VERRA' RICHIAMATO NELL'ALTRO FILE -->
+    <input name="emailForm" type="email" class="form-control" id="emailForm" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="passwordForm" class="form-label">Password</label>
+    <!-- //* INSERIRE name NELL'INPUT CHE VERRA' RICHIAMATO NELL'ALTRO FILE -->
         <input name="passwordForm" type="password" class="form-control" id="passwordForm">
       </div>
 
