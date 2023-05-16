@@ -23,15 +23,13 @@ $password = $_POST['passwordForm'];
 <body class="bg-dark text-white">
 
 <div class="container p-5">
-  <ul>
-    <li>
-      <?php echo $email ?>
-    </li>
-    <li>
-      <?php echo $password ?>
-    </li>
-  </ul>
-
+  
+  <h2>La tua mail è <?php echo $email ?></h2>
+  <h5>La tua mail è formata da <?php echo strlen($email)?> caratteri</h5>
+  <hr>
+  <h2>La tua password è <?php echo $password ?></h2>
+  <h5>La tua password è formata da <?php echo strlen($password)?> caratteri</h5>
+  
 
 
 </div>
