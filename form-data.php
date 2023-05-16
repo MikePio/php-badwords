@@ -8,6 +8,8 @@
 $email = $_POST['emailForm'];
 $password = $_POST['passwordForm'];
 
+$passwordCensored = str_replace($password, '***', $password);
+
 ?>
 
 
@@ -26,10 +28,14 @@ $password = $_POST['passwordForm'];
   
   <h2>La tua mail è <?php echo $email ?></h2>
   <h5>La tua mail è formata da <?php echo strlen($email)?> caratteri</h5>
+
   <hr>
+
   <h2>La tua password è <?php echo $password ?></h2>
   <h5>La tua password è formata da <?php echo strlen($password)?> caratteri</h5>
   
+  <hr>
+  <h2>La tua password è <?php echo $passwordCensored ?></h2>
 
 
 </div>
